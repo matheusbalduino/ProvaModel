@@ -15,7 +15,7 @@ namespace ProvaModel.Models
         public string Complemento { get; set; }
         public string Bairro { get; set; }
         public string Cidade { get; set; }
-        public virtual ICollection<Produto> Produtos { get; set; }
+        public virtual ICollection<Produto> Produtos { get; set; } //lista de produtos
     }
     public class Produto
     {
